@@ -1,3 +1,10 @@
+- [Créer un nom de domaine](#cr-er-un-nom-de-domaine)
+- [Créer une EC2 contenant un serveur qui rediriger vers le port 80](#cr-er-une-ec2-contenant-un-serveur-qui-rediriger-vers-le-port-80)
+- [Créer un target group par EC2](#cr-er-un-target-group-par-ec2)
+- [Créer un Load Balancer](#cr-er-un-load-balancer)
+- [Ajouter des règles sur le port 443 du load balancer pour rediriger les sous domaines par exemple vers les EC2 (View/edit rules)](#ajouter-des-r-gles-sur-le-port-443-du-load-balancer-pour-rediriger-les-sous-domaines-par-exemple-vers-les-ec2--view-edit-rules-)
+- [Configurer route 53 pour pointer vers le Load Balancer Créé](#configurer-route-53-pour-pointer-vers-le-load-balancer-cr--)
+
 # Créer un nom de domaine
 
 ![](https://user-images.githubusercontent.com/3251022/88677943-e81e8f00-d0bb-11ea-80e7-ef5b6232aa1e.png)
